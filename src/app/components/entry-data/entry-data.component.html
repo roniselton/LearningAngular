@@ -9,8 +9,7 @@
 
 <p>Valor Informado : {{ placeHolder }}</p>
 <!--  Forma mais facil de vincular os dados ao formulario ngModel -->
-<div>
-  <input type="text" [(ngModel)]="placePass" />
-</div>
+<div>Texto <input type="text" [(ngModel)]="placePass" /></div>
+<div>Cor <input type="text" [(ngModel)]="color" /></div>
 
-<p>Valor Informado : {{ placePass }}</p>
+<p [style.color]="color">Valor Informado : {{ placePass }}</p>

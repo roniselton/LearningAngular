@@ -9,4 +9,5 @@ export class EntryDataComponent {
   placeHolder: string = 'Digite algo...';
   valor: string = '';
   placePass: string = 'senha';
+  color: string = 'red';
 }
