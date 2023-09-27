@@ -11,4 +11,8 @@ export class ButtonComponent {
   btnObject = {
     label: 'Adicionar',
   };
+
+  getAlert(n1: number) {
+    alert('Oi: ' + n1 + ' - ' + this.label);
+  }
 }

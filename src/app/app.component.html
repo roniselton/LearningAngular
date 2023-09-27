@@ -8,12 +8,13 @@
   <router-outlet></router-outlet>
 </div>
 
+<!-- Interpolação -->
 <my-button label="{{ buttonSecond }}"></my-button>
-
-<my-button [label]="buttonLabel"></my-button>
-
 <my-button label="Valor Digitado"></my-button>
+
+<!-- Property Binding -->
 <my-button [label]="'Valor Digitado'"></my-button>
+<my-button [label]="buttonLabel"></my-button>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
