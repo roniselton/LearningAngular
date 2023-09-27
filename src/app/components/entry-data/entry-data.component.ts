@@ -3,13 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-entry-data',
   templateUrl: './entry-data.component.html',
-  styleUrls: ['./entry-data.component.css']
+  styleUrls: ['./entry-data.component.css'],
 })
 export class EntryDataComponent implements OnInit {
+  placeHolder: string = 'Digite algo...';
+  valor: string = '';
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

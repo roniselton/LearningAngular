@@ -1,3 +1,10 @@
-<p>
-  entry-data works!
-</p>
+<!-- Event Binding 2 Way -->
+<div>
+  <input
+    type="text"
+    [value]="placeHolder"
+    (input)="placeHolder = $any($event.target).value"
+  />
+</div>
+
+<p>Valor Informado : {{ placeHolder }}</p>
